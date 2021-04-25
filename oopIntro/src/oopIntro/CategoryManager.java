@@ -4,13 +4,16 @@ import java.util.ArrayList;
 
 public class CategoryManager {
 
-	public ArrayList<Category> createProductList(Category category){
-		ArrayList<Category> categoryies = new ArrayList<Category>();
-		categoryies.add(category);
-		return categoryies;
+	public ArrayList<Category> createCategoryList(ArrayList<Category> categories,Category category){
+		categories.add(category);
+		return categories;
 	}
 	
-	public void writeCategoryName(Category category){
-		System.out.println(category.name);
+	public void writeCategoryName(ArrayList<Category> categories){
+		System.out.println("***********************Kategori Listesi***********************");
+		for (int i = 0; i < categories.size(); i++) {
+			System.out.println(categories.get(i).id+". numaralý ürün ");
+			System.out.println("ad: "+ categories.get(i).name);
+		}
 	}
 }

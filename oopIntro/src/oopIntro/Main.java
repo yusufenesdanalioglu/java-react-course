@@ -9,6 +9,8 @@ public class Main {
 		Product product1 = new Product(2,"Lenova V15",15000,"34 Gb Ram");
 		Product product2 = new Product(3,"Lenova V16",15000,"64 Gb Ram");
 		Category category = new Category(1,"Teknoloji");
+		Category category1 = new Category(1,"Ev Yaþam");
+		Category category2 = new Category(1,"Mutfak");
 		
 		ArrayList<Product> products = new ArrayList<Product>();
 		ProductManager prdMngr = new ProductManager();
@@ -22,6 +24,15 @@ public class Main {
 		prdMngr.writeProductName(products);
 		
 		
+		ArrayList<Category> categories = new ArrayList<Category>();
+		CategoryManager ctgMngr = new CategoryManager();
 		
+		//kategori listesini oluþtur
+		ctgMngr.createCategoryList(categories, category);
+		ctgMngr.createCategoryList(categories,category1);
+		ctgMngr.createCategoryList(categories,category2);
+
+		//ürün listesini yazdýr
+		ctgMngr.writeCategoryName(categories);
 	}
 }
