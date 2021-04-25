@@ -4,7 +4,7 @@ import java.lang.reflect.Constructor;
 
 public class Product {
 	public Product(){
-		System.out.println("Boþ çalýþtým");
+		System.out.println("Boþ constructor çalýþtý");
 	}
 	
 	public Product(int id, String name, double unitPrice, String detail){
