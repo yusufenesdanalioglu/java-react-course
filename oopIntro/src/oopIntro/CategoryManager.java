@@ -12,7 +12,7 @@ public class CategoryManager {
 	public void writeCategoryName(ArrayList<Category> categories){
 		System.out.println("***********************Kategori Listesi***********************");
 		for (int i = 0; i < categories.size(); i++) {
-			System.out.println(categories.get(i).id+". numaralý ürün ");
+			System.out.println(categories.get(i).id+". numarali ürün ");
 			System.out.println("ad: "+ categories.get(i).name);
 		}
 	}
