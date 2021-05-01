@@ -5,9 +5,9 @@ import java.util.ArrayList;
 public class Main {
 
 	public static void main(String[] args) {
-		Product product = new Product(1,"Lenova V14",15000,"16 Gb Ram");
-		Product product1 = new Product(2,"Lenova V15",15000,"34 Gb Ram");
-		Product product2 = new Product(3,"Lenova V16",15000,"64 Gb Ram");
+		Product product = new Product(1,"Lenova V14",15000,"16 Gb Ram", 10, 13500);
+		Product product1 = new Product(2,"Lenova V15",15000,"34 Gb Ram", 10, 13500);
+		Product product2 = new Product(3,"Lenova V16",15000,"64 Gb Ram", 10, 13500);
 		Category category = new Category(1,"Teknoloji");
 		Category category1 = new Category(1,"Ev Yaþam");
 		Category category2 = new Category(1,"Mutfak");
