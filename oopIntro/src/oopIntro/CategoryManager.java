@@ -13,7 +13,7 @@ public class CategoryManager {
 		System.out.println("***********************Kategori Listesi***********************");
 		for (int i = 0; i < categories.size(); i++) {
 			System.out.println(categories.get(i).id+". numarali ürün ");
-			System.out.println("ad: "+ categories.get(i).name);
+			System.out.println("ad: "+ categories.get(i).name); 
 		}
 	}
 }

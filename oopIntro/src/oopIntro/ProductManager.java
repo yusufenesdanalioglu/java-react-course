@@ -16,6 +16,6 @@ public class ProductManager {
 			System.out.println("ad: "+ products.get(i).name);
 			System.out.println("fiyat: "+ products.get(i).unitPrice);
 			System.out.println("detay: "+ products.get(i).detail);
-		}
+		} 
 	}
 }
